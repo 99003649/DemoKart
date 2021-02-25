@@ -218,6 +218,16 @@ namespace EcommercePortal
                 Console.WriteLine("Product Price : " + item.Price);
             }
         }
+          public decimal TotalCost()
+        {
+            decimal tCost=0;
+            foreach(var item in cust_cart)
+            {
+                tCost = tCost + item.Price;
+
+            }
+            return tCost;
+        }
            
     }
 }
