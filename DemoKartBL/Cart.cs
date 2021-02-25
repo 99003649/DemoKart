@@ -1,18 +1,27 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoKartBL
+namespace EcommercePortal
 {
     public class Cart
     {
-        //Delete this method before submission
-        //Method was created to generate test project
-        public void SampleMethod()
+        Categories catObj = new Categories();
+        public List<Product> cust_cart = new List<Product>();
+        Product PrObj = new Product();
+        
+       
+        public double TotalCost()
         {
+            double tCost = 0;
+            foreach (var item in cust_cart)
+            {
+                tCost = tCost + item.Price;
 
+            }
+            return tCost;
         }
     }
 }
