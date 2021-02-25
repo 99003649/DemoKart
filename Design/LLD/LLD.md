@@ -32,3 +32,5 @@ Online Shopping is e-commerce web application, which retails various fashion and
 - Than console ask how many products do you want to add in cart.
 - Than user can select the items from list and add them in cart.
 - Than user can place the cart items by cash on delivery or by card. 
+
+![alt text](https://github.com/99003649/DemoKart/blob/main/Design/LLD/Mini%20Project%20UseCaseDiagram.png)
