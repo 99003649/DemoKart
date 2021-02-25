@@ -30,6 +30,8 @@ namespace EcommercePortal
                 cartObj.AddToCart(s);
 
                 cartObj.showCart();
+                
+                Console.WriteLine(cartObj.TotalCost()); 
 
                 /*if (s == 1)
                 {
