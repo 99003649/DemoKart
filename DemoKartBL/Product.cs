@@ -1,16 +1,16 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoKartBL
+namespace EcommercePortal
 {
     class Product
     {       
             public int Id;
             public string Name;
-            public int Price;
+            public double Price;
             public int Quantity;   
 
 
@@ -18,11 +18,11 @@ namespace DemoKartBL
             {
                 Id = 0;
                 Name = null;
-                Price = 0;
+                Price = 0.0;
                 Quantity = 0;
             }
 
-            public Product(int Id, string Name, int Price, int Quantity)
+            public Product(int Id, string Name, double Price, int Quantity)
             {
                 this.Id = Id;
                 this.Name = Name;
