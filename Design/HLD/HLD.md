@@ -25,3 +25,29 @@ Online Shopping is e-commerce web application, which retails various fashion and
 - Admin can add products, edit product information and add/remove product.
 - Admin can add users, edit user information and can remove users.
 - Admin can ship orders to users based on order placed by sending confirmation mail.
+
+**Structural: -**
+
+**Classes: -**
+- User class have all the login funtion in it.
+- Category class having all the product categories like Electronics, Clothing, Grocery etc.
+- Product class having all the item list with their price, id, name, quantity etc.
+- Cart class will show the added products in cart by user.
+- order class will take user data like phone no., address, email, name etc.
+- Payment class have payment mode by which user can pay like cash on delivery, Credit card etc. 
+
+**Attributes & Function: -**
+- UserId
+- Pass
+- CheckLogin
+- ProductId
+- ProductName
+- ProductPrice
+- ProductQuantity
+- CatId
+- CatName
+- AddToCart
+- Name
+- Address
+- PhoneNo
+- GetInfo
