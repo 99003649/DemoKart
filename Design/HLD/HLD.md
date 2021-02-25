@@ -51,3 +51,6 @@ Online Shopping is e-commerce web application, which retails various fashion and
 - Address
 - PhoneNo
 - GetInfo
+
+
+![alt text](https://github.com/99003649/DemoKart/blob/main/Design/HLD/UML%20Class%20Diagram.png)
